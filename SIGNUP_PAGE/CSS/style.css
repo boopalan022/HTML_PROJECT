@@ -1,0 +1,77 @@
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Main Container */
+  .main-container {
+    text-align: center;
+  }
+  
+  /* Header Section */
+header {
+    background-color: #007042;
+    color: white;
+    padding: 1px;
+    
+}
+
+header .container {
+    align-items: center;
+}
+
+  
+  /* Background Section */
+  .background {
+    background-image: url('../IMAGES/home2.png');
+    background-size: cover;
+    background-position: center;
+    padding: 24px 20px;
+  }
+  
+  /* Form Container */
+  .form-container {
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .form-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .form-container input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .form-container button {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+ 
+  
+  /* Footer Section */
+  footer {
+    background-color: #007042;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  footer p {
+    margin: 5px 0;
+  }
+  
