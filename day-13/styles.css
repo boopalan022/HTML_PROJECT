@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+#contnet{
+    border: 10px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.container-1{
+    border: 5px solid black;
+    flex-basis: 20%;
+    margin: 20px;
+    text-align: justify;
+}
+
+#class{
+    text-align: center;
+}
+
+.container-1 img{
+    width: 263px;
+    height: 260px;
+}
