@@ -14,7 +14,7 @@ body, html {
 header {
     background-color: #007042;
     color: white;
-    padding: 1px;
+    padding: 5px;
     
 }
 
@@ -68,7 +68,7 @@ header .container {
   footer {
     background-color: #007042;
     color: #fff;
-    padding: 10px 0;
+    padding: 22px 0;
   }
   
   footer p {

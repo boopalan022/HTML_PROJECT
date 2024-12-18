@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Button</title>
+    <style>
+        
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: #f0f0f0;
+            background: url('./1.avif');
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat;
+        }
+        div {
+            text-align: center;
+        }
+        button {
+            font-size: x-large;
+            padding: 15px 30px;
+            color: #e935bc;
+            background: #ffffff;
+            border: 3px solid #e935bc;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.5s ease;
+        }
+        button:hover {
+            color: white;
+            background: #e935bc;
+            transform: scale(1.1);
+            box-shadow: 0px 0px 20px #e935bc;
+        }
+        button:active {
+            transform: scale(0.95);
+            background: yellowgreen;
+            border: 3px double brown;
+        }
+    </style>
+</head>
+<body>
+    
+    <div><button>LOGIN SETUP</button></div>
+</body>
+</html>

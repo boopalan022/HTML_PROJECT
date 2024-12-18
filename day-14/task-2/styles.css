@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body {
+    background-color: hsl(185, 75%, 39%);
+    font-size: 18px;
+    font-family: "Kumbh Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "YOPQ" 300;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .top{
+    position: fixed;
+    top: -515px;
+    left: -280px;
+    z-index: 0;
+  }
+  .bottom {
+    position: fixed;
+    bottom: -620px;
+    right: -250px;
+    z-index: 0;
+  }
+  .box {
+    width: 340px;
+    height: 340px;
+    border-radius: 15px;
+    background-image: url("data:image/svg+xml,%3Csvg width='350' height='140' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3ClinearGradient x1='50%25' y1='.779%25' x2='50%25' y2='100%25' id='c'%3E%3Cstop stop-color='%230989B4' stop-opacity='0' offset='0%25'/%3E%3Cstop stop-color='%2353FFEE' offset='99.94%25'/%3E%3C/linearGradient%3E%3ClinearGradient x1='50%25' y1='.779%25' x2='50%25' y2='100%25' id='d'%3E%3Cstop stop-color='%230989B4' stop-opacity='0' offset='0%25'/%3E%3Cstop stop-color='%2353FFEE' offset='99.94%25'/%3E%3C/linearGradient%3E%3Cpath id='a' d='M0 0h350v140H0z'/%3E%3C/defs%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cmask id='b' fill='%23fff'%3E%3Cuse xlink:href='%23a'/%3E%3C/mask%3E%3Cuse fill='%2341CBD3' xlink:href='%23a'/%3E%3Cg mask='url(%23b)' opacity='.5'%3E%3Cg transform='translate(-11 -4)'%3E%3Cellipse fill='url(%23c)' transform='rotate(90 60.479 14.8)' cx='60.479' cy='14.8' rx='14.8' ry='14.834'/%3E%3Cellipse fill='url(%23d)' transform='rotate(180 14.834 14.8)' cx='14.834' cy='14.8' rx='14.834' ry='14.8'/%3E%3Cellipse fill='url(%23d)' cx='151.767' cy='14.8' rx='14.834' ry='14.8'/%3E%3Cellipse fill='url(%23c)' transform='rotate(-90 106.123 14.8)' cx='106.123' cy='14.8' rx='14.8' ry='14.834'/%3E%3Cellipse fill='url(%23c)' transform='rotate(90 243.055 14.8)' cx='243.055' cy='14.8' rx='14.8' ry='14.834'/%3E%3Cellipse fill='url(%23d)' transform='rotate(180 197.411 14.8)' cx='197.411' cy='14.8' rx='14.834' ry='14.8'/%3E%3Cellipse fill='url(%23d)' cx='334.344' cy='14.8' rx='14.834' ry='14.8'/%3E%3Cellipse fill='url(%23c)' transform='rotate(-90 288.7 14.8)' cx='288.699' cy='14.8' rx='14.8' ry='14.834'/%3E%3C/g%3E%3Cg transform='translate(-11 91.63)'%3E%3Cellipse fill='url(%23c)' transform='rotate(90 60.479 14.8)' cx='60.479' cy='14.8' rx='14.8' ry='14.834'/%3E%3Cellipse fill='url(%23d)' transform='rotate(180 14.834 14.8)' cx='14.834' cy='14.8' rx='14.834' ry='14.8'/%3E%3Cellipse fill='url(%23d)' cx='151.767' cy='14.8' rx='14.834' ry='14.8'/%3E%3Cellipse fill='url(%23c)' transform='rotate(-90 106.123 14.8)' cx='106.123' cy='14.8' rx='14.8' ry='14.834'/%3E%3Cellipse fill='url(%23c)' transform='rotate(90 243.055 14.8)' cx='243.055' cy='14.8' rx='14.8' ry='14.834'/%3E%3Cellipse fill='url(%23d)' transform='rotate(180 197.411 14.8)' cx='197.411' cy='14.8' rx='14.834' ry='14.8'/%3E%3Cellipse fill='url(%23d)' cx='334.344' cy='14.8' rx='14.834' ry='14.8'/%3E%3Cellipse fill='url(%23c)' transform='rotate(-90 288.7 14.8)' cx='288.699' cy='14.8' rx='14.8' ry='14.834'/%3E%3C/g%3E%3Cg transform='translate(-11 43.815)'%3E%3Cellipse fill='url(%23c)' transform='rotate(-90 60.479 14.8)' cx='60.479' cy='14.8' rx='14.8' ry='14.834'/%3E%3Cellipse fill='url(%23d)' cx='14.834' cy='14.8' rx='14.834' ry='14.8'/%3E%3Cellipse fill='url(%23d)' cx='151.767' cy='14.8' rx='14.834' ry='14.8'/%3E%3Cellipse fill='url(%23c)' transform='rotate(90 106.123 14.8)' cx='106.123' cy='14.8' rx='14.8' ry='14.834'/%3E%3Cellipse fill='url(%23c)' transform='rotate(-90 243.055 14.8)' cx='243.055' cy='14.8' rx='14.8' ry='14.834'/%3E%3Cellipse fill='url(%23d)' cx='197.411' cy='14.8' rx='14.834' ry='14.8'/%3E%3Cellipse fill='url(%23d)' cx='334.344' cy='14.8' rx='14.834' ry='14.8'/%3E%3Cellipse fill='url(%23c)' transform='rotate(90 288.7 14.8)' cx='288.699' cy='14.8' rx='14.8' ry='14.834'/%3E%3C/g%3E%3Cg transform='translate(11.822 18.77)'%3E%3Cellipse fill='url(%23c)' transform='rotate(90 60.479 14.8)' cx='60.479' cy='14.8' rx='14.8' ry='14.834'/%3E%3Cellipse fill='url(%23d)' transform='rotate(180 14.834 14.8)' cx='14.834' cy='14.8' rx='14.834' ry='14.8'/%3E%3Cellipse fill='url(%23d)' cx='151.767' cy='14.8' rx='14.834' ry='14.8'/%3E%3Cellipse fill='url(%23c)' transform='rotate(-90 106.123 14.8)' cx='106.123' cy='14.8' rx='14.8' ry='14.834'/%3E%3Cellipse fill='url(%23c)' transform='rotate(90 243.055 14.8)' cx='243.055' cy='14.8' rx='14.8' ry='14.834'/%3E%3Cellipse fill='url(%23d)' transform='rotate(180 197.411 14.8)' cx='197.411' cy='14.8' rx='14.834' ry='14.8'/%3E%3Cellipse fill='url(%23d)' cx='334.344' cy='14.8' rx='14.834' ry='14.8'/%3E%3Cellipse fill='url(%23c)' transform='rotate(-90 288.7 14.8)' cx='288.699' cy='14.8' rx='14.8' ry='14.834'/%3E%3C/g%3E%3Cg transform='translate(11.822 114.4)'%3E%3Cellipse fill='url(%23c)' transform='rotate(90 60.479 14.8)' cx='60.479' cy='14.8' rx='14.8' ry='14.834'/%3E%3Cellipse fill='url(%23d)' transform='rotate(180 14.834 14.8)' cx='14.834' cy='14.8' rx='14.834' ry='14.8'/%3E%3Cellipse fill='url(%23d)' cx='151.767' cy='14.8' rx='14.834' ry='14.8'/%3E%3Cellipse fill='url(%23c)' transform='rotate(-90 106.123 14.8)' cx='106.123' cy='14.8' rx='14.8' ry='14.834'/%3E%3Cellipse fill='url(%23c)' transform='rotate(90 243.055 14.8)' cx='243.055' cy='14.8' rx='14.8' ry='14.834'/%3E%3Cellipse fill='url(%23d)' transform='rotate(180 197.411 14.8)' cx='197.411' cy='14.8' rx='14.834' ry='14.8'/%3E%3Cellipse fill='url(%23d)' cx='334.344' cy='14.8' rx='14.834' ry='14.8'/%3E%3Cellipse fill='url(%23c)' transform='rotate(-90 288.7 14.8)' cx='288.699' cy='14.8' rx='14.8' ry='14.834'/%3E%3C/g%3E%3Cg transform='translate(11.822 66.585)'%3E%3Cellipse fill='url(%23c)' transform='rotate(-90 60.479 14.8)' cx='60.479' cy='14.8' rx='14.8' ry='14.834'/%3E%3Cellipse fill='url(%23d)' cx='14.834' cy='14.8' rx='14.834' ry='14.8'/%3E%3Cellipse fill='url(%23d)' cx='151.767' cy='14.8' rx='14.834' ry='14.8'/%3E%3Cellipse fill='url(%23c)' transform='rotate(90 106.123 14.8)' cx='106.123' cy='14.8' rx='14.8' ry='14.834'/%3E%3Cellipse fill='url(%23c)' transform='rotate(-90 243.055 14.8)' cx='243.055' cy='14.8' rx='14.8' ry='14.834'/%3E%3Cellipse fill='url(%23d)' cx='197.411' cy='14.8' rx='14.834' ry='14.8'/%3E%3Cellipse fill='url(%23d)' cx='334.344' cy='14.8' rx='14.834' ry='14.8'/%3E%3Cellipse fill='url(%23c)' transform='rotate(90 288.7 14.8)' cx='288.699' cy='14.8' rx='14.8' ry='14.834'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    display: flex;
+    position: relative;
+    top: 165px;
+    z-index: 3;
+  
+  }
+  .box1 {
+    height: 240px;
+    width: 340px;
+    display: flex;
+    background-color: white;
+    position: relative;
+    top: 140px;
+    border-radius: 0px 0px 15px 15px;
+    z-index: 5;
+    justify-content: center;
+    text-align: center;
+  }
+  .box2 {
+    padding-top: 40px;
+    z-index: 7;
+    width: 340px;
+    height: 0px;
+    position: absolute;
+    bottom: 50px;
+    border-top: 1px solid hsla(0, 0%, 59%, 0.673);
+  }
+  
+  .details {
+    width: 275px;
+    height: 50px;
+    display: grid;
+    grid-column: auto auto auto;
+    grid-template-areas: "one two three" "four five six";
+    position: relative;
+    bottom: 15px;
+    left: 27px;
+    
+   
+  }
+  
+  img {
+    width: 90px;
+    height: 90px;
+    border: 5px solid white;
+    border-radius: 100px;
+    position: absolute;
+    top: -50px;
+  }
+  .name {
+    position: relative;
+    top: 40px;
+  }
+  
+  #txt1 {
+    position: relative;
+    right: 5px;
+    top: 10px;
+    font-weight: 700;
+  }
+  #txt2 {
+    position: relative;
+    left: 5px;
+    top: 10px;
+    color: hsl(229, 23%, 23%);
+    font-weight: 300;
+  }
+  #txt3 {
+    position: relative;
+    top: 18px;
+    color: hsl(229, 23%, 23%);
+    font-weight: 300;
+    font-size: 14px;
+  }
+  
+  .one,
+  .two,
+  .three {
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  .four,
+  .five,
+  .six {
+    font-weight: 300;
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: hsl(229, 23%, 23%);
+  }
+  
+  .attribution {
+    display: flex;
+    position: fixed;
+    bottom: 10px;
+    text-align: center;
+    word-break: break-all;
+
+  }
+  
+  @media screen and (min-width:300px) and (max-width:700px){
+  .attribution{
+    display: flex;
+    text-wrap: wrap;
+    justify-content: center;
+    font-size: 10px;
+    color: rgba(31, 16, 16, 0.619);
+  }
+  
+  
+  svg{
+    transform: scale(0.65);
+  }
+  
+  .top{
+    position: fixed;
+    bottom: 100px;
+    left: -590px;
+  }
+  .bottom {
+    position: fixed;
+    right: -600px;
+    top: 200px;
+  }
+  
+  }
+  
