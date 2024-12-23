@@ -4,6 +4,7 @@
 }
 body {
     font-family: Arial, sans-serif;
+    background-color: rgb(141, 214, 211);
     margin: 20px;
     display: grid;
     justify-content: center;
