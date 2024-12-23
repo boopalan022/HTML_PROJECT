@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            display: grid;
+            grid-template-rows: auto auto 1fr auto;
+            grid-template-columns: 2fr 1fr;
+            grid-template-areas:
+                "header header"
+                "nav nav"
+                "section aside"
+                "footer footer";
+            gap: 10px;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 10px;
+        }
+
+        header {
+            grid-area: header;
+            background-color: #57d85d;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        nav {
+            grid-area: nav;
+            background-color: #4ba4ec54;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+
+        section {
+            grid-area: section;
+            background-color: #eaf8fc;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+
+        article {
+            margin-bottom: 20px;
+        }
+
+        aside {
+            grid-area: aside;
+            background-color: #f8bdbdd8;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            grid-area: footer;
+            background-color: #103a03;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to Our Website</h1>
+        </header>
+        <nav>
+            <p>Explore the various sections of the site through the links below.</p>
+        </nav>
+        <section>
+            <h2>Main Content Area</h2>
+            <article>
+                <h3>First Article</h3>
+                <p>In this article, we explore the fundamentals of web design and its importance in creating user-friendly websites.</p>
+            </article>
+            <article>
+                <h3>Second Article</h3>
+                <p>This article discusses the latest trends in web development, focusing on responsive design and performance optimization.</p>
+            </article>
+        </section>
+        <aside>
+            <h4>Additional Resources</h4>
+            <ul>
+                <li>Design Principles</li>
+                <li>Web Development Tools</li>
+                <li>Best Practices for Accessibility</li>
+            </ul>
+        </aside>
+        <footer>
+            <p>&copy; 2024 My Semantic Layout. All rights reserved Royal.</p>
+        </footer>
+    </div>
+</body>
+</html>
